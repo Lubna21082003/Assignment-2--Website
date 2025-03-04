@@ -102,6 +102,68 @@ margin-right: 30px;
     font-size: 1.25rem;
     font-weight: 700;
  }
+ /* stories section strat */
+ .stories-title{
+  text-align: center;
+  margin-top: 76px;
+ }
+ #November-badge{
+  margin-top: -250px;
+  margin-left: -250px;
+ }
+ #November-badge-1{
+  margin-top: -10px;
+  margin-left: -5px;
+ }
+ 
+ .text-primary-1{
+  background-color:#3CD8E8;
+  color: white;
+  border: none;
+  border-radius: 47.93px;
+ }
+ .light-blue-1{
+  background-color: #5D58F0;
+  color: white;
+  border: none;
+  border-radius: 47.93px;
+ }
+ .light-green{
+  background-color: #95B226;
+  color: white;
+  border: none;
+  border-radius: 47.93px;
+ }
+ .stories-container{
+  display:grid;
+ 
+  grid-template-columns: repeat(3,1fr);
+  gap:18px;
+  background-color: white;
+  
+ }
+.picture-1{
+  grid-row: span 3;
+  max-width: 540px;
+
+
+ }
+ .picture-1 img{
+  width: 100%;
+ }
+ .btn-secondery{
+  background-color: black;
+  color: white;
+  text-align: center;
+ }
+ 
+ 
+ 
+
+ 
+
+ 
+
 
 
 
@@ -116,6 +178,11 @@ margin-right: 30px;
       grid-template-columns: repeat(1,1fr);
       justify-content: center;
       gap: 24px;
+    }
+    
+    
+    .stories-container{
+      grid-template-columns: repeat(1,1fr);
     }
     
   }
