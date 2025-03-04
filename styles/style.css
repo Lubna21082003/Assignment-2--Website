@@ -66,12 +66,58 @@ margin-right: 30px;
  .banner-content img{
   width: 100%;
  }
+ /* curriculum related style */
+ .curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin-top: 30px;
+ }
+ .curriculum-title{
+    text-align: center;
+    max-width: 1440px;
+ }
+ .kinder{
+    background-color: #DEF5FF;
+ }
+ .Elementary{
+    background-color: #FFF4DC;
+ }
+ .Middle{
+    background-color: #F2E8FF;
+ }
+ .primary{
+    color: #808080;
+ }
+ .curriculum-card{
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 33px;
+ }
+ .curriculum-card-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+ }
+
+
+
   /* responsive style strat */
   @media screen and (max-width:576px){
     .navbar,.nav-links,.banner{
       flex-direction: column;
       justify-items: center;
     }
+    .curriculum-container{
+
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      gap: 24px;
+    }
+    
   }
    
     
