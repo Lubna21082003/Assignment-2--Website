@@ -155,7 +155,43 @@ margin-right: 30px;
   background-color: black;
   color: white;
   text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  border-radius: 12px;
  }
+ /* footer section style strat */
+ .footer-title{
+  color: white;
+ }
+ .footer-description{
+  max-width: 300px;
+  font-size: 1.4rem;
+  color: white;
+ }
+ .bg-secondery{
+background-color:#01ACFD ;
+justify-content: space-around;
+ }
+ .nav-title{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+ }
+ .nav-items-1{
+  list-style: none;
+ }
+ .nav-link-1{
+  text-decoration: none;
+ }
+nav a{
+  color: white;
+}
+.icons-title{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
  
  
  
@@ -173,6 +209,17 @@ margin-right: 30px;
       flex-direction: column;
       justify-items: center;
     }
+    .banner-description{
+      max-width: 300px;
+    }
+    .curriculum-card-description{
+
+    max-width: 300px;
+    }
+    .stories-1-description{
+
+      max-width: 300px;
+    }
     .curriculum-container{
 
       grid-template-columns: repeat(1,1fr);
@@ -182,7 +229,15 @@ margin-right: 30px;
     
     
     .stories-container{
-      grid-template-columns: repeat(1,1fr);
+    
+      grid-template-rows: repeat(2,1fr);
+     
+      justify-items: center;
+      gap: 5px;
+    }
+      
+    .bg-secondery{
+      flex-direction: column;
     }
     
   }
